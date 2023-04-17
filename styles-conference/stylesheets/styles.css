@@ -1,12 +1,23 @@
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  margin: 0;
+}
+
 body::before {
   position: absolute;
   background-image: url(/styles-conference/assets/lindy-hop-bg2);
   background-size:cover;
   opacity: 0.5;
   background-repeat: no-repeat;
-  
-  
 }
+
 
 .bg {
   position: absolute;
@@ -15,6 +26,11 @@ body::before {
   width: 100%;
   z-index: -1;
 }
+
 p {
   font-family: 'Lato', sans-serif;
+}
+
+.ham-img {
+  height: 25px;
 }
