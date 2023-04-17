@@ -15,6 +15,9 @@ a {
   font: inherit;
 }
 
+body {
+  line-height: 1;
+}
 a {
   text-decoration: none;
 }
@@ -26,7 +29,7 @@ ul {
 .bg {
   position: absolute;
   top: 50px;
-  opacity: 0.5;
+  opacity: 0.3;
   width: 100%;
   z-index: -1;
 }
@@ -41,4 +44,36 @@ a {
 
 .ham-img {
   height: 25px;
+}
+
+.hello {
+  font-weight: 400;
+  color: #ec4242;
+  font-size: 17px;
+
+}
+
+.title {
+  font-weight: 900;
+  color: #ff0000;
+  font-size: 30px;
+  opacity: 0.8;
+}
+
+.description {
+  font-weight: 600;
+  color: #3f4144;
+  font-size: 12px;
+}
+
+.where-to-learn {
+  font-weight: 900;
+  color: #3f4144;
+  font-size: 25px;
+}
+
+.link-sc {
+  font-weight: 600;
+  color: #3f4144;
+  font-size: 13px;
 }
