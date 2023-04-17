@@ -5,3 +5,7 @@ body {
   background-size:cover;
   background-repeat: no-repeat;
 }
+
+p {
+  font-family: 'Lato', sans-serif;
+}
