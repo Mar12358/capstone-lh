@@ -64,7 +64,7 @@ a {
 
 .description {
   border: 3px solid white;
-  background-color: rgb(243,242,242, 0.75);
+  background-color: rgb(243, 242, 242, 0.75);
   line-height: 1.6;
   padding: 12px;
   font-weight: 600;
@@ -101,8 +101,8 @@ header {
   padding: 3%;
   display: flex;
   flex-direction: column;
-  height: 43vh;
-  justify-content:space-evenly;
+  height: 46vh;
+  justify-content: space-evenly;
 }
 
 .headings,
@@ -119,9 +119,30 @@ header {
 .sc-section {
   display: flex;
   align-items: center;
-  max-width: 284px;
+  max-width: 266px;
 }
 
 .link-sc {
   width: fit-content;
+}
+
+.main-styles {
+  height: 100vh;
+  background-image: url(/styles-conference/assets/black_bg.png);
+}
+
+.dance-styles {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 19px;
+  color: #f7f6f6;
+  font-weight: 400;
+}
+
+hr {
+  width: 10%;
+  height: 1px;
+  margin-top: 13px;
+  border: none;
+  background-color: #ec5242;
 }
