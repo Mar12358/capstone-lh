@@ -5,13 +5,18 @@ h1,
 h2,
 h3,
 img,
-p {
+p,
+a {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
   font: inherit;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
@@ -26,8 +31,12 @@ ul {
   z-index: -1;
 }
 
-p {
+p,
+h1,
+h2,
+a {
   font-family: 'Lato', sans-serif;
+  font-style: normal;
 }
 
 .ham-img {
