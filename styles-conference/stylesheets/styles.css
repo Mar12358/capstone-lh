@@ -1,11 +1,20 @@
-body {
-  position: relative;
-  background-image: url(/styles-conference/assets/lindy-hop-bg1.jpg);
-  opacity: 0.5;
+body::before {
+  position: absolute;
+  background-image: url(/styles-conference/assets/lindy-hop-bg2);
   background-size:cover;
+  opacity: 0.5;
   background-repeat: no-repeat;
+  
+  
 }
 
+.bg {
+  position: absolute;
+  top: 50px;
+  opacity: 0.5;
+  width: 100%;
+  z-index: -1;
+}
 p {
   font-family: 'Lato', sans-serif;
 }
