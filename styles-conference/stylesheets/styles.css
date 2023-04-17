@@ -140,9 +140,49 @@ header {
 }
 
 hr {
-  width: 10%;
+  width: 8%;
   height: 1px;
   margin-top: 13px;
   border: none;
   background-color: #ec5242;
+}
+
+.styles-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.styles-container li {
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+  align-items: center;
+  
+  
+  background-color: rgb(63,65,68, 0.6);
+  padding: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+ul li p {
+  color: #f7f6f6;
+  font-size: 13px;
+  line-height: 1.3;
+
+}
+
+ul li h2 {
+  color: #ec5242;
+  flex-wrap: nowrap;
+  padding-left: 5px;
+}
+
+
+ul li img {
+  height: 40px;
+  width:  40px;
+  border-radius: 30%;
+  border: 3px solid rgb(82, 82, 82);
+  
 }
