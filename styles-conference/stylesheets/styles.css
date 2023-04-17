@@ -1,4 +1,4 @@
-ul, 
+ul,
 li,
 body,
 h1,
@@ -12,18 +12,18 @@ a {
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
-  font: inherit;
 }
 
 body {
   line-height: 1;
 }
+
 a {
   text-decoration: none;
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 .bg {
@@ -50,12 +50,11 @@ a {
   font-weight: 400;
   color: #ec5242;
   font-size: 17px;
-
 }
 
 .title {
   font-weight: 900;
-  color: #ff0000;
+  color: #f00;
   font-size: 30px;
   opacity: 0.8;
 }
