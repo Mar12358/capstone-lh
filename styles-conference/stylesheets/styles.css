@@ -1,23 +1,22 @@
-ul {
+ul, 
+li,
+body,
+h1,
+h2,
+h3,
+img,
+p {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
+  font: inherit;
 }
 
-body {
-  margin: 0;
+ul {
+	list-style: none;
 }
-
-body::before {
-  position: absolute;
-  background-image: url(/styles-conference/assets/lindy-hop-bg2);
-  background-size:cover;
-  opacity: 0.5;
-  background-repeat: no-repeat;
-}
-
 
 .bg {
   position: absolute;
