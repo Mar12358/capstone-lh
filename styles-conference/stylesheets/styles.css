@@ -135,9 +135,8 @@ header {
   height: 50px;
 }
 
-.styles-container li p,
 .see-program {
- color: rgb(221, 221, 221);
+  color: rgb(221, 221, 221);
 }
 
 .sc-section {
@@ -396,7 +395,7 @@ ul li img {
 
   .menu-list-desktop,
   .logo-navbar,
-  .see-program  {
+  .see-program {
     visibility: visible;
     display: flex;
   }
@@ -439,6 +438,7 @@ ul li img {
   .hello {
     font-size: 2.85vw;
   }
+
   .title {
     font-size: 4.8vw;
   }
@@ -448,35 +448,36 @@ ul li img {
     width: 43vw;
     margin-left: 1.05vw;
   }
+
   .where-to-learn {
     font-size: 3vw;
     margin-bottom: 0.48vw;
   }
+
   .p-link-sc {
     font-size: 1.75vw;
   }
+
   .welcome-page {
     padding-left: 12.97vw;
     padding-right: 30vw;
     padding-top: 7vw;
     gap: 1vw;
     padding-bottom: 6.4vw;
-    
   }
+
   .sc-section {
-   width: 60vw; 
-   max-width: 60vw;
+    width: 60vw;
+    max-width: 60vw;
   }
-  
+
   .hr-red {
     width: 3.5vw;
-
   }
+
   .sc-logo {
     height: 8vw;
-}
-
-
+  }
 
   .styles-container {
     display: grid;
@@ -485,6 +486,7 @@ ul li img {
     margin-right: 13.7vw;
     margin-left: 13.7vw;
   }
+
   .styles-container li {
     display: flex;
     align-items: center;
@@ -496,19 +498,21 @@ ul li img {
     margin-left: 0.12vw;
     margin-right: 0.12vw;
   }
+
   .styles-container li p {
     text-align: center;
     font-size: 11px;
     padding-left: 0.6vw;
     padding-right: 0.6vw;
-    
   }
+
   .see-program {
     font-size: 12px;
     text-decoration: underline;
     margin: 1vw;
     margin-bottom: 2vw;
   }
+
   .main-styles {
     display: flex;
     flex-direction: column;
