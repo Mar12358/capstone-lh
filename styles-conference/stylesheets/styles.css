@@ -50,7 +50,8 @@ h2,
 h3,
 a,
 button,
-span {
+span,
+.see-program {
   font-family: 'Lato', sans-serif;
   font-style: normal;
 }
@@ -134,6 +135,11 @@ header {
   height: 50px;
 }
 
+.styles-container li p,
+.see-program {
+ color: rgb(221, 221, 221);
+}
+
 .sc-section {
   display: flex;
   align-items: center;
@@ -175,7 +181,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr 4fr;
   align-items: center;
-  background-color: rgb(63, 65, 68, 0.8);
+  background-color: rgb(63, 65, 68, 0.85);
   padding: 10px;
   padding-top: 13px;
   padding-bottom: 13px;
@@ -374,19 +380,23 @@ ul li img {
 }
 
 .menu-list-desktop,
-.logo-navbar {
+.logo-navbar,
+.see-program,
+.join-button {
   visibility: hidden;
   display: none;
 }
 
 @media screen and (min-device-width: 768px) {
-  .ham-link {
+  .ham-link,
+  .join-button {
     visibility: hidden;
     display: none;
   }
 
   .menu-list-desktop,
-  .logo-navbar {
+  .logo-navbar,
+  .see-program  {
     visibility: visible;
     display: flex;
   }
@@ -468,9 +478,42 @@ ul li img {
     height: 8vw;
 }
 
+
+
   .styles-container {
     display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    margin-right: 13.7vw;
+    margin-left: 13.7vw;
+  }
+  .styles-container li {
+    display: flex;
+    align-items: center;
     flex-direction: column;
-    gap: 15px;
+    padding: 0;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    gap: 1vw;
+    margin-left: 0.12vw;
+    margin-right: 0.12vw;
+  }
+  .styles-container li p {
+    text-align: center;
+    font-size: 11px;
+    padding-left: 1%;
+    
+  }
+  .see-program {
+    /* margin: ; */
+    font-size: 12px;
+    text-decoration: underline;
+    margin: 1vw;
+    margin-bottom: 2vw;
+  }
+  .main-styles {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vw;
   }
 }
