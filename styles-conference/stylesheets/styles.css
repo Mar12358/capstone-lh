@@ -129,7 +129,6 @@ header {
 }
 
 .main-styles {
-  
   background-image: url(../assets/black_bg.png);
 }
 
@@ -195,7 +194,6 @@ ul li img {
   font-size: 19px;
   color: #f7f6f6;
   background-color: #ec5242;
-  
 }
 
 .button-container {
@@ -204,4 +202,3 @@ ul li img {
   display: flex;
   justify-content: center;
 }
-
