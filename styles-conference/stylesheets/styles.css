@@ -253,6 +253,7 @@ ul li img {
 }
 
 .about-title {
+  padding-top: 10px;
   font-weight: 900;
   color: #f00;
   font-size: 26px;
@@ -381,8 +382,7 @@ ul li img {
 
 .menu-list-desktop,
 .logo-navbar,
-.see-program,
-.join-button {
+.see-program {
   visibility: hidden;
   display: none;
 }
@@ -409,8 +409,6 @@ ul li img {
 
   .menu-list-desktop {
     gap: 4vw;
-
-    /* width: 45vw; */
   }
 
   .navbar {
@@ -501,11 +499,11 @@ ul li img {
   .styles-container li p {
     text-align: center;
     font-size: 11px;
-    padding-left: 1%;
+    padding-left: 0.6vw;
+    padding-right: 0.6vw;
     
   }
   .see-program {
-    /* margin: ; */
     font-size: 12px;
     text-decoration: underline;
     margin: 1vw;
