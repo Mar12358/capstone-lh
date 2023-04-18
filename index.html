@@ -12,10 +12,19 @@
 </head>
 <body>
   <header>
-    <nav class="ham">
-      <a href="#">
+    <nav class="navbar">
+      <a class="ham-link"href="#">
         <img class= "ham-img" src="styles-conference/assets/ham.png" alt="">
       </a>
+      <a href="#"><img class="logo-navbar" src="/styles-conference/assets/sd_logo.png" alt="logo_sd"></a>
+      <ul class="menu-list-desktop">
+        <li><a href="#about">About</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#AJ">Join</a></li>
+        <li><a href="#sponsors">Sponsor</a></li>
+        <li><a href="#news">News</a></li>
+        <li><button class="sdssl-button">SDSSL Campaign</button></li>
+      </ul>
     </nav>
   </header>
   <section class="home">
@@ -36,9 +45,9 @@
       </a>
     </section>
   </section>
-  <section class="main-styles">
+  <section id="program" class="main-styles">
     <h2 class="dance-styles">Main Dance Styles</h2>
-    <hr>
+    <hr class="hr-red">
     <br>
     <ul class="styles-container">
       <li>
@@ -66,18 +75,18 @@
       </li>
       <li>
         <img src="styles-conference/assets/solo_jazz.png" alt="lindy_logo">
-        <h2>Authentic Jazz</h2>
+        <h2 id="AJ">Authentic Jazz</h2>
         <p>
           From very slow to as fast as you can. The cradle of everything. (Solo) </p>
       </li>
     </ul>
     <div class="button-container">
-      <button class="join-button">
+      <button id="join-button" class="join-button">
         Join and Start Dancing
       </button>
     </div>
   </section>
-  <section class="about">
+  <section id="about" class="about">
     <section class="about-page">
       <div class="headings">
         <h2 class="about-hello">"Hello! Swing Dancers"</h2>
