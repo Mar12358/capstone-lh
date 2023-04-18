@@ -83,7 +83,7 @@ span {
   line-height: 1.6;
   padding: 12px;
   font-weight: 600;
-  color: #3f4144;
+  color: #515253;
   font-size: 12px;
 }
 
@@ -407,14 +407,14 @@ ul li img {
     margin-top: 7px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 10vw;
     margin-right: 10vw;
     margin-bottom: 7px;
   }
 
   .menu-list-desktop > * {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     color: #3f4144;
     align-self: center;
@@ -426,5 +426,51 @@ ul li img {
     color: #ec5242;
     font-size: 14px;
     font-weight: 600;
+  }
+
+  .hello {
+    font-size: 2.85vw;
+  }
+  .title {
+    font-size: 4.8vw;
+  }
+
+  .description {
+    font-size: 13px;
+    width: 43vw;
+    margin-left: 1.05vw;
+  }
+  .where-to-learn {
+    font-size: 3vw;
+    margin-bottom: 0.48vw;
+  }
+  .p-link-sc {
+    font-size: 1.75vw;
+  }
+  .welcome-page {
+    padding-left: 12.97vw;
+    padding-right: 30vw;
+    padding-top: 7vw;
+    gap: 1vw;
+    padding-bottom: 6.4vw;
+    
+  }
+  .sc-section {
+   width: 60vw; 
+   max-width: 60vw;
+  }
+  
+  .hr-red {
+    width: 3.5vw;
+
+  }
+  .sc-logo {
+    height: 8vw;
+}
+
+  .styles-container {
+    display: grid;
+    flex-direction: column;
+    gap: 15px;
   }
 }
