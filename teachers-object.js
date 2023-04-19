@@ -18,21 +18,21 @@ const teachers = [
     image: 'styles-conference/assets/axel.jpg',
   },
   {
-    name: 'Marina Fernandez Crespo',
+    name: 'Marina Fernandez',
     title: 'Lindy Hop Champion at C.A.P.O.S 2022',
-    description: 'Leap into electronic typesetting, remaining essent. Lorem Ipsum is simply dummy text of the printing and typ',
+    description: 'Leap into electronic typesetting, remaining essent. Lorem Ipsum is simply dummy text printing.',
     image: 'styles-conference/assets/maru.jpg',
   },
   {
     name: 'Juan Ignacio Villafañe',
     title: 'All Categories Champion everywhere',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. but also the leap into electronic typesetting, remaining essent',
+    description: 'Lorem Ipsum is simply dummy text of the leap into electronic typesetting, remaining essent',
     image: 'styles-conference/assets/juani.jpg',
   },
   {
     name: 'Martain González',
     title: 'Authenic Jazz and Lindy Hop Champion at ILHC 2020',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. but also the leap into electronic typesetting.',
+    description: 'Lorem Ipsum is simply dummy text of the typesetting industry. but also the leap into electronic typesetting.',
     image: 'styles-conference/assets/mar.jpg',
   },
 ];
