@@ -1,0 +1,1 @@
+import teachers from './teachers-object.js';

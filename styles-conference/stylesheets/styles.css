@@ -524,26 +524,23 @@ ul li img {
     flex-direction: column;
     gap: 0.7vw;
   }
+
   .about-title {
     font-size: 4vw;
   }
+
   .about-description,
   .small-p,
   .mail-link {
     font-size: 13px;
   }
+
   .about2-title {
-   font-size: 1.9vw; 
-
-
-   margin-top: 10px;
-   font-weight: 600;
-   color: #515152;
-   font-size: 19px;
-   text-align: center;
+    font-size: 1.9vw;
+    margin-top: 10px;
   }
-  .about {
 
+  .about {
     padding-bottom: 3.5vw;
     padding-top: 3.5vw;
     display: flex;
@@ -552,51 +549,55 @@ ul li img {
     gap: 10vw;
   }
 
-  .about-page {
+  .about1 {
     gap: 3vw;
     width: 60vw;
   }
-  .descr-desk {
 
+  .descr-desk {
     padding-bottom: 1.7vw;
     padding-top: 1.7vw;
     padding-left: 4vw;
     padding-right: 4vw;
-  
   }
+
   .about2,
   .about-page {
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: */ 
+
+    /* gap: */
     padding-bottom: 20px;
     padding-top: 10px;
   }
+
   .about2 .headings,
-  .about-pag .headings {
-    width: 60vw;
+  .about-page .headings {
+    width: 70vw;
     margin-left: 0;
     margin-right: 0;
+  }
 
- }
- .about2 {
-  padding-top: 2.7vw;
-  gap: 1.5vw;
- }
- .about3 {
-  padding-top: 2.7vw;
-  padding-bottom: 6vw;
-  gap: 4vw;
-  width: 100vw;
+  .about2 {
+    padding-top: 2.7vw;
+    gap: 1.5vw;
+  }
 
- }
- .seminars {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-  align-items: center;
-}
+  .about3 {
+    padding: 0;
+    padding-top: 2.7vw;
+    padding-bottom: 6vw;
+    gap: 4vw;
+  }
 
+  .seminars {
+    flex-direction: row;
+    gap: 2.05vw;
+  }
+
+  .img-container {
+    width: 85%;
+    height: 21.7vw;
+  }
 }
