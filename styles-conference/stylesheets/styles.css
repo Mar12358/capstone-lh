@@ -530,6 +530,16 @@ ul li img {
     margin-bottom: 7px;
   }
 
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #3f4144;
+}
+
+
+
   .menu-list-desktop > * {
     font-size: 12px;
     font-weight: 600;
@@ -732,4 +742,11 @@ ul li img {
     flex-direction: column;
     justify-content: center;
   }
+  .home-about:link,
+.home-about:visited,
+.home-about:hover,
+.home-about:active {
+  color: #ec5242;
+}
+
 }
