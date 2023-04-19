@@ -77,7 +77,7 @@ Try it with <a href="https://mar12358.github.io/capstone-lh">gh-pages</a>
 
 ## 🚀 Presentation <a name="presentation"></a>
 
-See this <a href="https://www.loom.com/share/b5bb67f5bc9842f69eb0e5038309bf28">walkthrough video</a> communicating some technical concepts.
+See this <a href="https://www.loom.com/share/b63537f938dc4a3c982d7fbf677bae9d">walkthrough video</a> communicating some technical concepts.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
