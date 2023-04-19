@@ -170,6 +170,17 @@ header {
   background-color: #ec5242;
 }
 
+.hr-grey {
+  margin: 0;
+  width: 30px;
+  height: 1px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border: none;
+  background-color: #b6b6b6;
+  align-self: flex-start;
+}
+
 .styles-container {
   display: flex;
   flex-direction: column;
@@ -387,6 +398,51 @@ ul li img {
   visibility: hidden;
   display: none;
 }
+
+.teacher-img {
+  /* float: left; */
+  width: 35%;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+
+.teacher-info {
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+}
+.teachers-container {
+  display: flex; 
+  flex-direction: column;
+  margin: 10px;
+  gap: 25px;
+}
+
+.teacher-contain {
+  display: flex;
+  gap: 10px;
+  
+}
+.teacher-name {
+  font-size: 20px;
+  font-weight: 900;
+  color: #414141;
+  padding-bottom: 5px;
+}
+.teacher-title {
+  font-style: italic;
+  color:#ec5242;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.teacher-descr {
+  line-height: 1.4;
+  font-size: 13px;
+  color: #414141;
+}
+
 
 @media screen and (min-device-width: 768px) {
   .ham-link,

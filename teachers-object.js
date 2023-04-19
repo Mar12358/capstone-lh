@@ -31,7 +31,7 @@ const teachers = [
   },
   {
     name: 'Martain González',
-    title: 'Authenic Jazz and Lindy Hop Champion at Savoy Cup 2020',
+    title: 'Authenic Jazz and Lindy Hop Champion at ILHC 2020',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. but also the leap into electronic typesetting.',
     image: 'styles-conference/assets/mar.jpg',
   },
