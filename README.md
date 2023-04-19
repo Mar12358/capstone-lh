@@ -140,6 +140,9 @@ N/A
 - **Add library**
 - **Add news**
 
+**Original design idea by ***Cindy Shin*** in Behance.** <br>
+**Her design was used for the project.** [🙏 See acknowledgements below](#acknowledgements)<br>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -158,12 +161,15 @@ Give a ⭐️ if you like this project!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-**Original design idea by Cindy Shin in Behance.**
-- Behance: [@adagio07](https://www.behance.net/adagio07)
-- LinkedIn: [@adagio07](https://www.linkedin.com/in/adagio07/)
-- Dribble: [@adagio07](https://dribbble.com/adagio07)
+**Original design idea by ***Cindy Shin*** in Behance.** <br>
+**Her design was used for the project.**
+- Behance: [Cindy Shin](https://www.behance.net/adagio07)
+- LinkedIn: [Cindy Shin](https://www.linkedin.com/in/adagio07/)
+- Dribble: [Cindy Shin](https://dribbble.com/adagio07)
 
-I would also like to thank all Microverse Team!
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,6 +185,10 @@ I would also like to thank all Microverse Team!
 
 ## 📝 License <a name="license"></a>
 
+
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
+This project is [MIT](./LICENSE.md) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
