@@ -51,5 +51,6 @@ teachers.forEach((e) => {
   teachersContainer.appendChild(teacherContain);
 });
 teacherSection.appendChild(teachersContainer);
+const footer = document.querySelector('footer');
 
-body.appendChild(teacherSection);
+body.insertBefore(teacherSection, footer);

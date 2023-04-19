@@ -493,6 +493,10 @@ ul li img {
   display: none;
 }
 
+footer {
+  height: 1000px;
+}
+
 @media screen and (min-device-width: 768px) {
   .ham-link,
   .join-button,
@@ -511,16 +515,19 @@ ul li img {
     visibility: visible;
     display: flex;
   }
+
   .dark-menu-list a {
-    color:#f3f3f3;
+    color: #f3f3f3;
     font-size: 12px;
     font-weight: 400;
   }
+
   .dark-menu-list {
     display: flex;
     gap: 20px;
     align-items: center;
   }
+
   .media {
     display: flex;
     gap: 15px;
@@ -533,8 +540,8 @@ ul li img {
     padding-top: 3px;
     padding-bottom: 3px;
     gap: 30px;
-    
   }
+
   .logo-navbar {
     width: 120px;
     border-radius: 10px;
