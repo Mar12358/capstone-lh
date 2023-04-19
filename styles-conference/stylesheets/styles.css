@@ -537,6 +537,14 @@ ul li img {
     color: #3f4144;
   }
 
+  .home-about:link,
+  .home-about:visited,
+  .home-about:hover,
+  .home-about:active {
+    color: #ec5242;
+  }
+
+
   .menu-list-desktop > * {
     font-size: 12px;
     font-weight: 600;
@@ -677,8 +685,6 @@ ul li img {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    /* gap: */
     padding-bottom: 20px;
     padding-top: 10px;
   }
@@ -738,12 +744,5 @@ ul li img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-
-  .home-about:link,
-  .home-about:visited,
-  .home-about:hover,
-  .home-about:active {
-    color: #ec5242;
   }
 }
