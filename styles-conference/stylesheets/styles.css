@@ -426,16 +426,6 @@ ul li img {
   margin-right: 10%;
 }
 
-.menu-list-desktop,
-.logo-navbar,
-.see-program,
-.p-about2-desktop,
-.descr-desk,
-.invisible {
-  visibility: hidden;
-  display: none;
-}
-
 .teacher-img {
   width: 35%;
   max-width: 200px;
@@ -492,6 +482,17 @@ ul li img {
   font-weight: 600;
 }
 
+.menu-list-desktop,
+.logo-navbar,
+.see-program,
+.p-about2-desktop,
+.descr-desk,
+.invisible,
+.dark-header {
+  visibility: hidden;
+  display: none;
+}
+
 @media screen and (min-device-width: 768px) {
   .ham-link,
   .join-button,
@@ -505,11 +506,25 @@ ul li img {
   .logo-navbar,
   .see-program,
   .descr-desk,
-  .p-about2-desktop {
+  .p-about2-desktop,
+  .dark-header {
     visibility: visible;
     display: flex;
   }
+  .dark-menu-list a {
+    color:#f3f3f3;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .dark-menu-list {
+    display: flex;
+    gap: 20px;
+  }
 
+  .dark-header {
+    background-color: #3f4144;
+    
+  }
   .logo-navbar {
     width: 120px;
     border-radius: 10px;
@@ -543,7 +558,6 @@ ul li img {
   .home-about:active {
     color: #ec5242;
   }
-
 
   .menu-list-desktop > * {
     font-size: 12px;
