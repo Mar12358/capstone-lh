@@ -12,13 +12,24 @@
 </head>
 <body>
   <header>
-    <nav class="navbar">
+    <div class="popup-menu invisible">
+      <img class="close-button" src="styles-conference/assets/Icon-Cancel.svg" alt="">
+      <ul class="popup-menu-list">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index.html#program">Program</a></li>
+        <li><a href="#AJ">Join</a></li>
+        <li><a href="#sponsors">Sponsor</a></li>
+        <li><a href="#news">News</a></li>
+        <li><button class="sdssl-button">SDSSL Campaign</button></li>
+      </ul>
+    </div>
+    <nav class="navbar toggle-selection">
       <a class="ham-link"href="#">
         <img class= "ham-img" src="styles-conference/assets/ham.png" alt="">
       </a>
       <a href="./index.html"><img class="logo-navbar" src="styles-conference/assets/sd_logo.png" alt="logo_sd"></a>
       <ul class="menu-list-desktop">
-        <li><a href="#">About</a></li>
+        <li><a href="./index.html">Home</a></li>
         <li><a href="./index.html#program">Program</a></li>
         <li><a href="./index.html#AJ">Join</a></li>
         <li><a href="#sponsors">Sponsor</a></li>
@@ -27,7 +38,7 @@
       </ul>
     </nav>
   </header>
-  <section id="about" class="about">
+  <section id="about" class="about toggle-blur">
     <section class="about-page about1">
       <div class="headings">
         <h2 class="about-hello">"Hello! Swing Dancers"</h2>
@@ -55,7 +66,7 @@
     
   </section>
   <hr>
-  <section class="about2">
+  <section class="about2 toggle-blur">
     <div class="headings">
       <h2 class="about2-title logo-title">Swing Dance Styles and Steps Library 2023 Logo</h2>
       <hr class="hr-red">
@@ -69,7 +80,7 @@
   </div>
   </section>
   <hr>
-  <section class="about-page about3">
+  <section class="about-page about3 toggle-selection">
     <div class="headings">
       <h2 class="about2-title">See the past Global Swing Dancers</h2>
       <hr class="hr-red">
