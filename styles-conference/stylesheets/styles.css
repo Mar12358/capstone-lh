@@ -519,10 +519,20 @@ ul li img {
   .dark-menu-list {
     display: flex;
     gap: 20px;
+    align-items: center;
+  }
+  .media {
+    display: flex;
+    gap: 15px;
   }
 
   .dark-header {
     background-color: #3f4144;
+    justify-content: flex-end;
+    padding-right: 17.5vw;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    gap: 30px;
     
   }
   .logo-navbar {
