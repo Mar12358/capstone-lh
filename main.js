@@ -15,3 +15,4 @@ function clickMenu() {
 }
 
 ham.addEventListener('click', clickMenu);
+menuList.addEventListener('click', clickMenu);
