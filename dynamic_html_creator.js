@@ -3,7 +3,7 @@ import teachers from './teachers-object.js';
 const body = document.querySelector('body');
 
 const teacherSection = document.createElement('section');
-teacherSection.className = 'home-only';
+teacherSection.className = 'home-only toggle-selection';
 const heading = document.createElement('h2');
 heading.innerHTML = 'Featured Teachers';
 heading.className = 'about2-title';

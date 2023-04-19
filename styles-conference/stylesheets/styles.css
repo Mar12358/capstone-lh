@@ -332,6 +332,19 @@ ul li img {
   object-fit: contain;
 }
 
+.popup-menu {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 101;
+  background-color: rgb(236,82,66, 0.5);
+  mix-blend-mode: multiply;
+  
+}
+
+.blend-mode {
+  filter: blur(8px);
+}
 .img-logo-container {
   width: 80%;
   height: 120px;
@@ -339,6 +352,7 @@ ul li img {
   background-color: white;
   overflow: hidden;
   margin-top: 25px;
+  
 }
 
 .center-logo {
@@ -394,7 +408,8 @@ ul li img {
 .logo-navbar,
 .see-program,
 .p-about2-desktop,
-.descr-desk {
+.descr-desk,
+.invisible {
   visibility: hidden;
   display: none;
 }
