@@ -170,6 +170,17 @@ header {
   background-color: #ec5242;
 }
 
+.hr-grey {
+  margin: 0;
+  width: 25px;
+  height: 1px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: none;
+  background-color: #b6b6b6;
+  align-self: flex-start;
+}
+
 .styles-container {
   display: flex;
   flex-direction: column;
@@ -318,14 +329,50 @@ ul li img {
 .img-logo {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+}
+
+.popup-menu {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  z-index: -100;
+  background-color: rgb(236, 82, 66, 0.5);
+  mix-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-menu-list {
+  margin-top: 10vh;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.close-button {
+  padding-top: 5vw;
+  width: 6vh;
+  align-self: flex-end;
+  margin-right: 5vw;
+}
+
+.popup-menu ul li a {
+  color: #f5f5f5;
+  font-size: 4vh;
+}
+
+.blend-mode {
+  filter: blur(8px);
 }
 
 .img-logo-container {
   width: 80%;
   height: 120px;
   border: 1px solid #d3d3d3;
-  background-color: #f5f5f5;
+  background-color: white;
   overflow: hidden;
   margin-top: 25px;
 }
@@ -383,9 +430,66 @@ ul li img {
 .logo-navbar,
 .see-program,
 .p-about2-desktop,
-.descr-desk {
+.descr-desk,
+.invisible {
   visibility: hidden;
   display: none;
+}
+
+.teacher-img {
+  width: 35%;
+  max-width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.teacher-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teachers-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.teacher-contain {
+  display: flex;
+  gap: 10px;
+}
+
+.teacher-name {
+  font-size: 20px;
+  font-weight: 900;
+  color: #414141;
+  padding-bottom: 1.5%;
+}
+
+.teacher-title {
+  font-style: italic;
+  color: #ec5242;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.teacher-descr {
+  line-height: 1.4;
+  font-size: 13px;
+  color: #414141;
+}
+
+.sdssl-button {
+  border: 4px solid #ec5242;
+  padding: 2vh;
+  color: #ec5242;
+  font-size: 3vh;
+  font-weight: 600;
 }
 
 @media screen and (min-device-width: 768px) {
@@ -599,5 +703,33 @@ ul li img {
   .img-container {
     width: 85%;
     height: 21.7vw;
+  }
+
+  .home-only {
+    padding-top: 3vw;
+  }
+
+  .teachers-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    gap: 27px;
+    margin-left: 13.5vw;
+    margin-right: 13.5vw;
+    padding-bottom: 5vw;
+  }
+
+  .teacher-contain {
+    margin-top: 2.5vw;
+  }
+
+  .teacher-img {
+    width: 12vw;
+  }
+
+  .teacher-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
