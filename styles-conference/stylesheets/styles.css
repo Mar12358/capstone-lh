@@ -603,10 +603,10 @@ ul li .style-icon {
     margin-bottom: 7px;
   }
 
-  .menu-list-desktop li a:link,
-  .menu-list-desktop li a:visited,
-  .menu-list-desktop li a:hover,
-  .menu-list-desktop li a:active {
+  .menu-item-desktop:link,
+  .menu-item-desktop:visited,
+  .menu-item-desktop:hover,
+  .menu-item-desktop:active {
     color: #3f4144;
   }
 
@@ -733,7 +733,7 @@ ul li .style-icon {
 
   .about {
     padding-bottom: 3.5vw;
-    padding-top: 3.5vw;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -908,5 +908,7 @@ ul li .style-icon {
   .cc-home,
   .cc-text-home-p {
     color: #3f4144;
+    font-size: 1.06vw;
+    line-height: 1.3;
   }
 }
