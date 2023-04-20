@@ -77,7 +77,7 @@ Try it with <a href="https://mar12358.github.io/capstone-lh">gh-pages</a>
 
 ## 🚀 Presentation <a name="presentation"></a>
 
-See this <a href="https://www.loom.com/share/b63537f938dc4a3c982d7fbf677bae9d">walkthrough video</a> communicating some technical concepts.
+See this <a href="https://www.loom.com/share/847abed05cb44b02b9e96ee327598953">walkthrough video</a> communicating some technical concepts.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +100,7 @@ To clone this repository to your local machine, open a terminal and select desir
 ```
 Clone:
 ```sh
-  git clone https://github.com/Mar12358/Portfolio.git
+  git clone https://github.com/Mar12358/capstone-lh.git
 ```
 
 
