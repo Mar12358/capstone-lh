@@ -773,6 +773,34 @@ ul li .style-icon {
     gap: 1.5vw;
   }
 
+  .brand-container > * {
+    display: flex;
+  }
+
+  .brand-img {
+    height: 2.2vw;
+  }
+
+  .mozilla,
+  .google {
+    height: 2.1vw;
+    align-self: center;
+  }
+
+  .naver {
+    height: 1.4vw;
+    align-self: center;
+  }
+
+  .facebook {
+    height: 3.1vw;
+    align-self: center;
+  }
+
+  .airbnb {
+    height: 9vw;
+  }
+
   .about3 {
     padding: 0;
     padding-top: 2.7vw;
@@ -827,12 +855,18 @@ ul li .style-icon {
   }
 
   .black-bg {
-    background-color: #222;
+    background-color: #383838;
   }
 
   .brand-container {
     display: flex;
     justify-content: center;
+    gap: 3.5vw;
+  }
+
+  .partners {
+    padding-top: 4vw;
+    padding-bottom: 2vw;
   }
 
   .partners-container {
@@ -840,6 +874,12 @@ ul li .style-icon {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .partner-title {
+    color: #b4b4b4;
+    font-size: 1.75vw;
+    font-weight: 400;
   }
 
   .cc-image {
