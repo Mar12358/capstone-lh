@@ -1,0 +1,973 @@
+ul,
+li,
+body,
+h1,
+h2,
+h3,
+img,
+p,
+a,
+div,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+  background-color: #f7f6f6;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin-top: 0;
+  height: 1px;
+  border: none;
+  background-color: #d4d4d4;
+}
+
+ul {
+  list-style: none;
+}
+
+.bg {
+  position: absolute;
+  top: 50px;
+  opacity: 0.3;
+  width: 100%;
+  z-index: -1;
+}
+
+p,
+h1,
+h2,
+h3,
+a,
+button,
+span,
+.see-program {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
+
+.ham-img {
+  height: 32px;
+  margin-top: 15px;
+  margin-left: 22px;
+  margin-bottom: 15px;
+}
+
+.hello {
+  margin-top: 10px;
+  font-weight: 400;
+  color: #ec5242;
+  font-size: 19px;
+}
+
+.title {
+  margin-top: 6px;
+  font-weight: 900;
+  color: #f00;
+  font-size: 28px;
+  opacity: 0.8;
+}
+
+.description {
+  border: 3px solid white;
+  background-color: rgb(243, 242, 242, 0.75);
+  line-height: 1.6;
+  padding: 12px;
+  font-weight: 600;
+  color: #515253;
+  font-size: 12px;
+}
+
+.where-to-learn {
+  font-weight: 900;
+  color: #525252;
+  font-size: 25px;
+}
+
+.p-link-sc {
+  font-weight: 600;
+  color: #525252;
+  font-size: 13px;
+}
+
+.home {
+  background-image: url(../assets/lindy-hop-bg2_transp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 60px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #f7f6f6;
+}
+
+.welcome-page {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.headings,
+.where-to-learn,
+.p-link-sc {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.sc-logo {
+  height: 50px;
+}
+
+.see-program {
+  color: rgb(221, 221, 221);
+}
+
+.sc-section {
+  display: flex;
+  align-items: center;
+  max-width: 266px;
+  margin-bottom: 35px;
+}
+
+.link-sc {
+  width: fit-content;
+}
+
+.main-styles {
+  background-image: url(../assets/black_bg.png);
+}
+
+.dance-styles {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 19px;
+  color: #f7f6f6;
+  font-weight: 400;
+}
+
+.hr-red {
+  width: 8%;
+  height: 1px;
+  margin-top: 13px;
+  border: none;
+  background-color: #ec5242;
+}
+
+.hr-grey {
+  margin: 0;
+  width: 25px;
+  height: 1px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: none;
+  background-color: #b6b6b6;
+  align-self: flex-start;
+}
+
+.styles-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.styles-container li {
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+  align-items: center;
+  background-color: rgb(63, 65, 68, 0.85);
+  padding: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  gap: 2px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+ul li p,
+.seminar-text,
+.seminar-year {
+  color: #f7f6f6;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+ul li h2 {
+  color: #ec5242;
+  flex-wrap: nowrap;
+  padding-left: 5px;
+}
+
+ul li .style-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 30%;
+  border: 3px solid rgb(82, 82, 82);
+}
+
+.join-button {
+  width: 75%;
+  align-content: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  font-size: 19px;
+  color: #f7f6f6;
+  background-color: #ec5242;
+}
+
+.button-container {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  background-image: url(../assets/lindy-hop-bg2_transp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.about-page {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about-hello {
+  margin-top: 10px;
+  font-weight: 400;
+  color: #ec5242;
+  font-size: 19px;
+  text-align: center;
+}
+
+.about-title {
+  padding-top: 10px;
+  font-weight: 900;
+  color: #f00;
+  font-size: 26px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.about-description {
+  border: 1px solid #d3d3d3;
+  background-color: #f5f5f5;
+  line-height: 1.6;
+  padding: 12px;
+  font-weight: 600;
+  color: #515152;
+  font-size: 12px;
+  text-align: center;
+}
+
+.small-p {
+  line-height: 1.6;
+  margin-left: 7%;
+  margin-right: 7%;
+  font-weight: 600;
+  color: #515152;
+  font-size: 11px;
+  text-align: center;
+}
+
+.mail-link {
+  color: #515152;
+  text-decoration: underline;
+  font-weight: 900;
+  font-size: 12px;
+}
+
+.small-contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about2 {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.about2-title {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #515152;
+  font-size: 19px;
+  text-align: center;
+}
+
+.img-seminar {
+  border: 1px solid #d3d3d3;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.popup-menu {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  z-index: -100;
+  background-color: rgb(236, 82, 66, 0.5);
+  mix-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-menu-list {
+  margin-top: 10vh;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.close-button {
+  padding-top: 5vw;
+  width: 6vh;
+  align-self: flex-end;
+  margin-right: 5vw;
+}
+
+.popup-menu ul li a {
+  color: #f5f5f5;
+  font-size: 4vh;
+}
+
+.blend-mode {
+  filter: blur(8px);
+}
+
+.img-logo-container {
+  width: 80%;
+  height: 120px;
+  border: 1px solid #d3d3d3;
+  background-color: white;
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+.center-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.img-container {
+  position: relative;
+  width: 85%;
+  height: 160px;
+  overflow: hidden;
+}
+
+.seminars {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(236, 82, 66, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.seminar-year {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.seminar-text {
+  text-align: center;
+}
+
+.logo-title {
+  line-height: 1.3;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.teacher-img {
+  width: 35%;
+  max-width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.teacher-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teachers-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.teacher-contain {
+  display: flex;
+  gap: 10px;
+}
+
+.teacher-name {
+  font-size: 20px;
+  font-weight: 900;
+  color: #414141;
+  padding-bottom: 1.5%;
+}
+
+.teacher-title {
+  font-style: italic;
+  color: #ec5242;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.teacher-descr {
+  line-height: 1.4;
+  font-size: 13px;
+  color: #414141;
+}
+
+.sdssl-button {
+  border: 4px solid #ec5242;
+  padding: 2vh;
+  color: #ec5242;
+  font-size: 3vh;
+  font-weight: 600;
+}
+
+.menu-list-desktop,
+.logo-navbar,
+.see-program,
+.p-about2-desktop,
+.descr-desk,
+.invisible,
+.dark-header,
+.only-desktop,
+.cc-img-white {
+  visibility: hidden;
+  display: none;
+}
+
+.cc-about-footer {
+  padding-top: 6.5vw;
+  padding-bottom: 6.5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10.5vw;
+  margin-right: 10.5vw;
+  align-items: center;
+}
+
+.cc-about-footer > * {
+  padding: 0.5vw;
+}
+
+.cc-image {
+  height: 5vw;
+}
+
+.cc {
+  font-size: 4vw;
+  line-height: 0.7;
+  font-weight: 800;
+}
+
+.cc-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+.cc-text-p {
+  font-size: 2.75vw;
+  line-height: 1.3;
+}
+
+.black-bg {
+  background-color: #383838;
+}
+
+.brand-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partners {
+  padding-top: 26px;
+  padding-bottom: 5px;
+}
+
+.partners-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-title {
+  color: #f3f3f3;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.brand-container > * {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.brand-img {
+  height: 2.2vw;
+}
+
+.mozilla,
+.google {
+  height: 19px;
+  align-self: center;
+}
+
+.naver {
+  height: 15px;
+  align-self: center;
+}
+
+.facebook {
+  height: 28px;
+  align-self: center;
+}
+
+.airbnb {
+  height: 70px;
+}
+
+@media screen and (min-device-width: 768px) {
+  .ham-link,
+  .join-button,
+  .about-hello,
+  .descr-mob,
+  .cc-img-black,
+  .only-mobile {
+    visibility: hidden;
+    display: none;
+  }
+
+  .menu-list-desktop,
+  .logo-navbar,
+  .see-program,
+  .descr-desk,
+  .p-about2-desktop,
+  .dark-header,
+  .cc-img-white {
+    visibility: visible;
+    display: flex;
+  }
+
+  .only-desktop {
+    visibility: visible;
+    display: block;
+  }
+
+  .dark-menu-list a {
+    color: #f3f3f3;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .dark-menu-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .media {
+    display: flex;
+    gap: 15px;
+  }
+
+  .dark-header {
+    background-color: #3f4144;
+    justify-content: flex-end;
+    padding-right: 17.5vw;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    gap: 30px;
+  }
+
+  .logo-navbar {
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid #d3d3d3;
+  }
+
+  .menu-list-desktop {
+    gap: 4vw;
+  }
+
+  .navbar {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 7px;
+  }
+
+  .menu-item-desktop:link,
+  .menu-item-desktop:visited,
+  .menu-item-desktop:hover,
+  .menu-item-desktop:active {
+    color: #3f4144;
+  }
+
+  .home-about:link,
+  .home-about:visited,
+  .home-about:hover,
+  .home-about:active {
+    color: #ec5242;
+  }
+
+  .menu-list-desktop > * {
+    font-size: 12px;
+    font-weight: 600;
+    color: #3f4144;
+    align-self: center;
+  }
+
+  .sdssl-button {
+    border: 4px solid #ec5242;
+    padding: 7px;
+    color: #ec5242;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .hello {
+    font-size: 2.85vw;
+  }
+
+  .title {
+    font-size: 4.8vw;
+  }
+
+  .description {
+    font-size: 13px;
+    width: 43vw;
+    margin-left: 1.05vw;
+  }
+
+  .where-to-learn {
+    font-size: 3vw;
+    margin-bottom: 0.48vw;
+  }
+
+  .p-link-sc {
+    font-size: 1.75vw;
+  }
+
+  .welcome-page {
+    padding-left: 12.97vw;
+    padding-right: 30vw;
+    padding-top: 7vw;
+    gap: 1vw;
+    padding-bottom: 6.4vw;
+  }
+
+  .sc-section {
+    width: 60vw;
+    max-width: 60vw;
+  }
+
+  .hr-red {
+    width: 2.5vw;
+  }
+
+  .sc-logo {
+    height: 8vw;
+  }
+
+  .styles-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    margin-right: 13.7vw;
+    margin-left: 13.7vw;
+  }
+
+  .styles-container li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    gap: 1vw;
+    margin-left: 0.12vw;
+    margin-right: 0.12vw;
+  }
+
+  .styles-container li p {
+    text-align: center;
+    font-size: 11px;
+    padding-left: 0.6vw;
+    padding-right: 0.6vw;
+  }
+
+  .see-program {
+    font-size: 12px;
+    text-decoration: underline;
+    margin: 1vw;
+    margin-bottom: 2vw;
+  }
+
+  .main-styles {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vw;
+  }
+
+  .about-title {
+    font-size: 4vw;
+  }
+
+  .about-description,
+  .small-p,
+  .mail-link {
+    font-size: 13px;
+  }
+
+  .about2-title {
+    font-size: 1.9vw;
+    margin-top: 10px;
+  }
+
+  .about {
+    padding-bottom: 3.5vw;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vw;
+  }
+
+  .about1 {
+    gap: 3vw;
+    width: 60vw;
+  }
+
+  .descr-desk {
+    padding-bottom: 1.7vw;
+    padding-top: 1.7vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .about2,
+  .about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+
+  .about2 .headings,
+  .about-page .headings {
+    width: 70vw;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about2 {
+    padding-top: 2.7vw;
+    gap: 1.5vw;
+  }
+
+  .brand-container > * {
+    display: flex;
+  }
+
+  .brand-img {
+    height: 2.2vw;
+  }
+
+  .mozilla,
+  .google {
+    height: 2.1vw;
+    align-self: center;
+  }
+
+  .naver {
+    height: 1.4vw;
+    align-self: center;
+  }
+
+  .facebook {
+    height: 3.1vw;
+    align-self: center;
+  }
+
+  .airbnb {
+    height: 9vw;
+  }
+
+  .about3 {
+    padding: 0;
+    padding-top: 2.7vw;
+    padding-bottom: 6vw;
+    gap: 4vw;
+  }
+
+  .seminars {
+    flex-direction: row;
+    gap: 2.05vw;
+  }
+
+  .img-container {
+    width: 85%;
+    height: 21.7vw;
+  }
+
+  .home-only {
+    padding-top: 3vw;
+  }
+
+  .teachers-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    gap: 27px;
+    margin-left: 13.5vw;
+    margin-right: 13.5vw;
+    padding-bottom: 5vw;
+  }
+
+  .teacher-contain {
+    margin-top: 2.5vw;
+  }
+
+  .teacher-img {
+    width: 12vw;
+  }
+
+  .teacher-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cc-about-footer {
+    padding-top: 6.5vw;
+    padding-bottom: 6.5vw;
+    grid-template-columns: 3fr 6fr;
+    margin-left: 12.5vw;
+    margin-right: 12.5vw;
+  }
+
+  .black-bg-desktop {
+    background-color: #383838;
+  }
+
+  .brand-container {
+    display: flex;
+    justify-content: center;
+    gap: 3.5vw;
+  }
+
+  .partners {
+    padding-top: 4vw;
+    padding-bottom: 2vw;
+  }
+
+  .partners-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .partner-title {
+    color: #b4b4b4;
+    font-size: 1.75vw;
+    font-weight: 400;
+  }
+
+  .cc-image {
+    height: 3vw;
+  }
+
+  .cc {
+    font-size: 2.75vw;
+    line-height: 0.6;
+    font-weight: 700;
+    color: #f3f3f3;
+  }
+
+  .cc-text-p {
+    font-size: 1.06vw;
+    line-height: 1.3;
+    color: #b6b6b6;
+  }
+
+  .cc-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
+
+  .cc-home,
+  .cc-text-home-p {
+    color: #3f4144;
+    font-size: 1.06vw;
+    line-height: 1.3;
+  }
+}
